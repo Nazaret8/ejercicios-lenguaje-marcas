@@ -1,0 +1,30 @@
+/* Estilo para el cuerpo del documento */
+body {
+  font-family: Arial, sans-serif; /* Establece la fuente */
+  background-color: #f0f0f0; /* Color de fondo */
+  color: #333; /* Color del texto */
+  line-height: 1.5; /* Altura de línea para una mejor legibilidad */
+  padding: 20px; /* Margen interno del cuerpo */
+  max-width: 800px; /* Ancho máximo del contenido para mejor legibilidad */
+  margin: 0 auto; /* Centra el contenido */
+}
+
+/* Estilo para el encabezado */
+h1 {
+  font-size: 2.5em; /* Tamaño de fuente */
+  color: #333; /* Color de texto */
+  margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+
+/* Estilo para enlaces */
+a {
+  color: #ffee00; /* Color de los enlaces */
+  text-decoration: none; /* Quita la subrayadura del texto */
+  font-weight: bold; /* Establece el peso de la fuente */
+}
+
+a:hover {
+  color: #b31b00; /* Cambia el color cuando se pasa el cursor sobre el enlace */
+  text-decoration: underline; /* Subraya el enlace cuando se pasa el cursor */
+}
