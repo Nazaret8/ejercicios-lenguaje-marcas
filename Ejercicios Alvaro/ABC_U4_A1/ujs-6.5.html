@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <script>
+        var fabricantes = ["Toyota", "Ford", "BMW", "Mercedes", "Audi", "Ferrari", "Porsche", "Lamborghini"];
+        document.body.innerHTML = "Array original: " + fabricantes.join(", ") + "<br>";
+        
+        setTimeout(function() {
+            fabricantes.sort();
+            alert("El array se mostrará ordenado ascendentemente");
+            document.body.innerHTML += "Array ordenado: " + fabricantes.join(", ");
+        }, 2000);
+    </script>
+
+</body>
+
+</html>

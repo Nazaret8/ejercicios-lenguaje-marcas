@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form onsubmit="event.preventDefault(); processText()">
+        <input type="text" id="myText">
+        <input type="submit" value="Procesar texto">
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        function processText() {
+            var text = document.getElementById("myText").value;
+            var words = text.split(" ");
+            var numberOfWords = words.length;
+            var firstWord = words[0];
+            var lastWord = words[words.length - 1];
+            var reversedWords = words.slice().reverse().join(", ");
+            var sortedWords = words.slice().sort().join(", ");
+            document.getElementById("result").innerHTML =
+                "Número de palabras: " + numberOfWords + "<br>" +
+                "Primera palabra: " + firstWord + "<br>" +
+                "Última palabra: " + lastWord + "<br>" +
+                "Palabras en orden inverso: " + reversedWords + "<br>" +
+                "Palabras ordenadas alfabéticamente: " + sortedWords;
+        }
+    </script>
+
+</body>
+
+</html>

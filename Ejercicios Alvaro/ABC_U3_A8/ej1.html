@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media query - Fondo</title>
+  <style>
+    body {
+      background-color: gainsboro;
+      color: black;
+    }
+
+    @media screen and (max-width: 1200px) {
+      body {
+        background-color: blue;
+        color: white;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: green;
+        color: white;
+      }
+
+      @media print {
+        body {
+          color: red;
+        }
+      }
+
+      @media screen and (max-width: 1000px) {
+        body {
+          background-color: purple;
+          color: yellow;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Redimensiona la ventana de tu navegador para ver los efectos</h1>
+  <p>Por defecto, el color de fondo es gris.</p>
+  <p>Si el tamaño es 992px o menos, el color cambiará a azul.</p>
+  <p>Si es 600px o menor, cambiará a verde.</p>
+</body>
+
+</html>

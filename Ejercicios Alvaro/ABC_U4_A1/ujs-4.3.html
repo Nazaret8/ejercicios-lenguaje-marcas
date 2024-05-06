@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página</title>
+</head>
+<body>
+    <a id="miEnlace" href="https://www.google.com">Google</a>
+    <button onclick="cambiarEnlace()">Cambiar enlace</button>
+
+    <script>
+        function cambiarEnlace() {
+            var enlace = document.getElementById('miEnlace');
+            enlace.href = 'https://www.bing.com';
+            enlace.textContent = 'Bing';
+        }
+    </script>
+</body>
+</html>

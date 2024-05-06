@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <input type="text" id="myText1" />
+    <input type="text" id="myText2" />
+    <button onclick="generateIntegers()">Generar números enteros</button>
+    <button onclick="interleaveArrays()">Intercalar arrays</button>
+    <p id="result"></p>
+
+    <script>
+        function generateIntegers() {
+            var array1 = [1, 2, 3, 4, 5];
+            var array2 = [6, 7, 8, 9, 10];
+            document.getElementById("myText1").value = array1.join(", ");
+            document.getElementById("myText2").value = array2.join(", ");
+        }
+
+        function interleaveArrays() {
+            var array1 = document.getElementById("myText1").value.split(", ");
+            var array2 = document.getElementById("myText2").value.split(", ");
+            var result = [];
+            for (var i = 0; i < array1.length; i++) {
+                result.push(array1[i], array2[i]);
+            }
+            document.getElementById("result").innerText =
+                "Resultado: " + result.join(", ");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media query - Div oculto</title>
+  <style>
+    div.example {
+      background-color: yellow;
+      padding: 20px;
+    }
+
+    /* Cuando el ancho del navegador sea 600px o menos, oculta el elemento div */
+    @media only screen and (max-width: 600px) {
+      div.example {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Oculta los elementos de la página.</h2>
+  <div class="example">Div de ejemplo.</div>
+  <p>Cuando el ancho del navegador sea 600px o menos, oculta el elemento div.</p>
+</body>
+</html>

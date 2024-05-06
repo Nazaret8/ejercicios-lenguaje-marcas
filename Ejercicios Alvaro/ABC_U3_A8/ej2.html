@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media query - Teléfono</title>
+  <style>
+    #telefono {
+      font-size: 32px;
+      font-weight: bold;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Para dispositivos medianos (ordenadores de escritorio), el número de teléfono se mostrará en la esquina superior derecha */
+    @media only screen and (min-width : 992px) {
+      #telefono {
+        top: 0;
+        right: 0;
+        bottom: auto;
+        width: auto;
+        text-align: right;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="telefono">987 65 43 21</div>
+</body>
+</html>

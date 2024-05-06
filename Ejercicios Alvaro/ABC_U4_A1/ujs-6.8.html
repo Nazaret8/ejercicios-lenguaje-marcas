@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <input type="text" id="myText">
+    <button onclick="countWords()">Contar palabras</button>
+    <p id="result"></p>
+
+    <script>
+        function countWords() {
+            var phrase = document.getElementById("myText").value;
+            var words = phrase.split(" ");
+            var numberOfWords = words.length;
+            document.getElementById("result").innerText = "Número de palabras: " + numberOfWords + "\nPalabras: " + words.join(", ");
+        }
+    </script>
+
+</body>
+
+</html>

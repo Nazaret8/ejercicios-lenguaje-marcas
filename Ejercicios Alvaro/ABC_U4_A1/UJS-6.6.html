@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <input type="text" id="random">
+    <button onclick="generateRandomNumbers()">Generar números aleatorios</button>
+
+    <script>
+        function generateRandomNumbers() {
+            var numbers = [];
+            for (var i = 0; i < 5; i++) {
+                numbers.push(Math.floor(Math.random() * 100));
+            }
+            document.getElementById("random").value = numbers.join(", ");
+        }
+    </script>
+
+</body>
+
+</html>

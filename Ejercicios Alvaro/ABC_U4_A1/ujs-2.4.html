@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página</title>
+</head>
+<body>
+    <p id="mensaje">Texto inicial</p>
+
+    <script>
+        alert('Vas a machacar el texto inicial');
+        var nuevoTexto = document.createElement('h1');
+        nuevoTexto.textContent = 'Texto de cabecera tipo 1';
+        document.getElementById('mensaje').replaceWith(nuevoTexto);
+    </script>
+</body>
+</html>
