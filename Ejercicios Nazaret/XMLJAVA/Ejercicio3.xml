@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalogo>
+    <fechaPublicacion>09/02/2024</fechaPublicacion>
+    <tiendas>
+        <tienda>
+            <provincia>Sevilla</provincia>
+            <ciudad>El Cuervo de Sevilla</ciudad>
+        </tienda>
+        <tienda>
+            <provincia>Cadiz</provincia>
+            <ciudad>Jerez</ciudad>
+        </tienda>
+    </tiendas>
+    <productos>
+        <producto cantidad="10">
+            <nombre>Silla</nombre>
+            <descripcion>Para sentarse</descripcion>
+            <precio divisa="EUR">24</precio>
+        </producto>
+        <producto>
+            <nombre>Mesa</nombre>
+            <descripcion>Para apoyar cosas</descripcion>
+            <precio>50</precio>
+        </producto>
+    </productos>
+</catalogo>

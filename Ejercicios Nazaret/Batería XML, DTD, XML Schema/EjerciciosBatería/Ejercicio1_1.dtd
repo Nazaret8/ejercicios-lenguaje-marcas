@@ -1,0 +1,6 @@
+<!ELEMENT billete (nombre_pasajero,aereopuerto_origen,aereopuerto_destino,fecha_vuelo,hora_vuelo)>
+<!ELEMENT nombre_pasajero (#PCDATA)>
+<!ELEMENT aereopuerto_origen (#PCDATA)>
+<!ELEMENT aereopuerto_destino (#PCDATA)>
+<!ELEMENT fecha_vuelo (#PCDATA)>
+<!ELEMENT hora_vuelo (#PCDATA)>

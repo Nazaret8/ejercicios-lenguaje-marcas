@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="billete">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre_pasajero" type="xs:string"/>
+        <xs:element name="aereopuerto_origen" type="xs:string"/>
+        <xs:element name="aereopuerto_destino" type="xs:string"/>
+        <xs:element name="fecha_vuelo" type="xs:date"/>
+        <xs:element name="hora_vuelo" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

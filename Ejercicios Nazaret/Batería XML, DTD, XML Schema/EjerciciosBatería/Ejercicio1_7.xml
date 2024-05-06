@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proyectosConstruccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1_7_Schema.xsd">
+    <proyecto idProyecto="P001">
+        <nombreProyecto>Edificio Residencial</nombreProyecto>
+        <fechaInicio>2024-01-15</fechaInicio>
+        <fechaFinalizacion>2025-06-30</fechaFinalizacion>
+        <ubicacion>Ciudad Metropolitana</ubicacion>
+        <cliente>
+            <nombre>Juan Perez</nombre>
+            <direccion>Calle Principal, 123</direccion>
+            <correoElectronico>juanperez@example.com</correoElectronico>
+        </cliente>
+        <arquitecto>
+            <nombre>Maria Rodriguez</nombre>
+            <direccion>Avenida Central, 456</direccion>
+            <correoElectronico>mariarodriguez@example.com</correoElectronico>
+        </arquitecto>
+        <contratista>
+            <nombre>Constructores Unidos SA</nombre>
+            <direccion>Carretera Principal, 789</direccion>
+            <correoElectronico>info@constructoresunidos.com</correoElectronico>
+        </contratista>
+        <tareas idTarea="T001">
+            <tarea>
+                <descripcionTarea>Diseño arquitectónico</descripcionTarea>
+                <fechaInicio>2024-01-15</fechaInicio>
+                <fechaFinalizacion>2024-03-15</fechaFinalizacion>
+                <responsable>
+                    <nombre>Maria Rodriguez</nombre>
+                    <direccion>Avenida Central, 456</direccion>
+                    <correoElectronico>mariarodriguez@example.com</correoElectronico>
+                </responsable>
+            </tarea>
+            <tarea>
+                <descripcionTarea>Excavación del terreno</descripcionTarea>
+                <fechaInicio>2024-03-20</fechaInicio>
+                <fechaFinalizacion>2024-04-10</fechaFinalizacion>
+                <responsable>
+                    <nombre>Carlos Gomez</nombre>
+                    <direccion>Calle Secundaria, 789</direccion>
+                    <correoElectronico>carlosgomez@example.com</correoElectronico>
+                </responsable>
+            </tarea>
+            <!-- Otras tareas aquí -->
+        </tareas>
+    </proyecto>
+    <!-- Otros proyectos aquí -->
+</proyectosConstruccion>

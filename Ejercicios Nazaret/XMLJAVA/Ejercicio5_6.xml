@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series>
+    <serie>
+        <titulo>Breaking Bad</titulo>
+        <temporadas>5</temporadas>
+        <agnoEmision>2008</agnoEmision>
+    </serie>
+    <serie>
+        <titulo>Game of Thrones</titulo>
+        <temporadas>8</temporadas>
+        <agnoEmision>2011</agnoEmision>
+    </serie>
+    <serie>
+        <titulo>Stranger Things</titulo>
+        <temporadas>4</temporadas>
+        <agnoEmision>2016</agnoEmision>
+    </serie>
+    <serie>
+        <titulo>Friends</titulo>
+        <temporadas>10</temporadas>
+        <agnoEmision>1994</agnoEmision>
+    </serie>
+    <serie>
+        <titulo>The Crown</titulo>
+        <temporadas>5</temporadas>
+        <agnoEmision>2016</agnoEmision>
+    </serie>
+</series>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="Ejercicio1_6_Schema.xsd">
+    <empleado id="e001">
+        <nombre>Juan</nombre>
+        <apellidos>Perez</apellidos>
+        <fechaNacimiento>1990-05-15</fechaNacimiento>
+        <puesto>
+            <titulo>Desarrollador Senior</titulo>
+            <departamento>Desarrollo de Software</departamento>
+        </puesto>
+        <direccion>Avenida Principal, 123</direccion>
+    </empleado>
+    <empleado id="e002">
+        <nombre>Maria</nombre>
+        <apellidos>Gomez</apellidos>
+        <fechaNacimiento>1985-09-20</fechaNacimiento>
+        <puesto>
+            <titulo>Gerente de Proyectos</titulo>
+            <departamento>Administración</departamento>
+        </puesto>
+    </empleado>
+</empleados>

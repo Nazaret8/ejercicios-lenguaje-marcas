@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE informacion_personal SYSTEM "Ejercicio1_4.dtd">-->
+<informacion_personal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1_4_Schema.xsd" >
+    <nombre>Nazaret</nombre>
+    <apellidos>
+        <apellido_paterno>Andrades</apellido_paterno>
+        <apellido_materno>González</apellido_materno>
+    </apellidos>
+    <edad>19</edad>
+    <sexo>femenino</sexo>
+    <direccion>
+      <calle>C/Luna</calle>
+      <numero_calle>2</numero_calle>
+      <ciudad>El Cuervo de Sevilla</ciudad>
+      <codigo_postal>41749</codigo_postal>
+      <pais>España</pais>
+    </direccion>
+    <contacto>
+      <telefono>658-475-142</telefono>
+      <correo>nandgon822@g.educaand.es</correo>
+    </contacto>
+    <educacion>
+      <titulo>Grado Superior Desarrollo de Aplicaciones Multiplataformas</titulo>
+      <institucion>IES Laguna de Tollón</institucion>
+      <anio>2025</anio>
+    </educacion>
+    <habilidades>
+      <habilidad>Lenguajes de programación: Java, Python, JavaScript</habilidad>
+      <habilidad>Desarrollo web: HTML, CSS, React</habilidad>
+      <habilidad>Bases de datos: SQL, MongoDB</habilidad>
+    </habilidades>
+  </informacion_personal>
+  

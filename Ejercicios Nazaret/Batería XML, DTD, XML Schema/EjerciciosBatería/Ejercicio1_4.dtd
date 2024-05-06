@@ -1,0 +1,22 @@
+<!ELEMENT informacion_personal (nombre, apellidos, edad, sexo, direccion, contacto, educacion, habilidades)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (apellido_paterno, apellido_materno)>
+<!ELEMENT apellido_paterno (#PCDATA)>
+<!ELEMENT apellido_materno (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+<!ELEMENT direccion (calle, numero_calle, ciudad, codigo_postal, pais)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero_calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT contacto (telefono, correo)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT educacion (titulo, institucion, anio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT institucion (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT habilidades (habilidad+)>
+<!ELEMENT habilidad (#PCDATA)>

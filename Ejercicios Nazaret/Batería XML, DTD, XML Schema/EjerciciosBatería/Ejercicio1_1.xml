@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE billete SYSTEM "Ejercicio1_1.dtd">-->
+<billete xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1_1_Schema.xsd">
+    <nombre_pasajero>Nazaret</nombre_pasajero>
+    <aereopuerto_origen>Madrid</aereopuerto_origen>
+    <aereopuerto_destino>Menorca</aereopuerto_destino>
+    <fecha_vuelo>2024-04-08</fecha_vuelo>
+    <hora_vuelo>09:00</hora_vuelo>
+</billete>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libros editorial="informatik">
+    <libro id="1" digital="false" papel="true">
+        <titulo>Geronimo Stilton</titulo>
+    </libro>
+
+    <libro id="2" digital="true" papel="true">
+        <titulo>Harry Potter y el prisionero de Azkaban</titulo>
+    </libro>
+
+    <libro id="3" digital="false" papel="true">
+        <titulo>Canción de Hielo y Fuego: Festín de Cuervos</titulo>
+    </libro>
+
+    <libro id="4" digital="true" papel="true">
+        <titulo>The Witcher</titulo>
+    </libro>
+
+    <libro id="5" digital="false" papel="true">
+        <titulo>El señor de los anillos: La comunidad del anillo</titulo>
+    </libro>
+
+    <libro id="6" digital="true" papel="true">
+        <titulo>Los pilares de la tierra</titulo>
+    </libro>
+</libros>

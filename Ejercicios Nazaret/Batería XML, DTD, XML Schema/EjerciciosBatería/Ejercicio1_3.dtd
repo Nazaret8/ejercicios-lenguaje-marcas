@@ -1,0 +1,15 @@
+<!ELEMENT factura (cliente, productos, subtotal, iva, total)>
+<!ATTLIST factura
+    numero CDATA #REQUIRED
+    fecha CDATA #REQUIRED>
+<!ELEMENT cliente (nombre_cliente, direccion)>
+<!ELEMENT nombre_cliente (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre, unidades, precio_unitario)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT precio_unitario (#PCDATA)>
+<!ELEMENT subtotal (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="proyectosConstruccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="proyecto" maxOccurs="unbounded">
+          <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nombreProyecto" type="xs:string"></xs:element>
+            <xs:element name="fechaInicio" type="xs:date"></xs:element>
+            <xs:element name="fechaFinalizacion" type="xs:date"></xs:element>
+            <xs:element name="ubicacion" type="xs:string"></xs:element>
+            <xs:element name="cliente" type="persona"></xs:element>
+            <xs:element name="arquitecto" type="persona"></xs:element>
+            <xs:element name="contratista" type="persona"></xs:element>
+            <xs:element name="tareas">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="tarea" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="descripcionTarea" type="xs:string"></xs:element>
+                        <xs:element name="fechaInicio" type="xs:date"></xs:element>
+                        <xs:element name="fechaFinalizacion" type="xs:date"></xs:element>
+                        <xs:element name="responsable" type="persona"></xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="idTarea" type="xs:ID"></xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="idProyecto" type="xs:ID"></xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="persona">
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"></xs:element>
+      <xs:element name="direccion" type="xs:string"></xs:element>
+      <xs:element name="correoElectronico" type="correoValido"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="correoValido">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z0-9]+@[a-z]+.[a-z]+"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

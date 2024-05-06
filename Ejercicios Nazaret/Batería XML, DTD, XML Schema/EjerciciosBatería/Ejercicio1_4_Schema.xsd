@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="informacion_personal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="apellidos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="apellido_paterno" type="xs:string"/>
+              <xs:element name="apellido_materno" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="edad" type="xs:integer"/>
+        <xs:element name="sexo" type="xs:string"/>
+        <xs:element name="direccion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="calle" type="xs:string"/>
+              <xs:element name="numero_calle" type="xs:integer"/>
+              <xs:element name="ciudad" type="xs:string"/>
+              <xs:element name="codigo_postal" type="xs:string"/>
+              <xs:element name="pais" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contacto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="telefono" type="xs:string"/>
+              <xs:element name="correo" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="educacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="institucion" type="xs:string"/>
+              <xs:element name="anio" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="habilidades">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="habilidad" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

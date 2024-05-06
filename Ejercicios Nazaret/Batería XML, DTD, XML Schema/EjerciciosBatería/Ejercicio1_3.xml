@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE factura SYSTEM "Ejercicio1_3.dtd">-->
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1_3_Schema.xsd" numero="F001" fecha="2024-04-16">
+    <cliente>
+        <nombre_cliente>Cliente Ejemplo</nombre_cliente>
+        <direccion>Calle Ejemplo, 123</direccion>
+    </cliente>
+    <productos>
+        <producto>
+            <nombre>Producto A</nombre>
+            <unidades>2</unidades>
+            <precio_unitario>10.99</precio_unitario>
+        </producto>
+        <producto>
+            <nombre>Producto B</nombre>
+            <unidades>1</unidades>
+            <precio_unitario>5.49</precio_unitario>
+        </producto>
+    </productos>
+    <subtotal>27.47</subtotal>
+    <iva>5.84</iva>
+    <total>33.31</total>
+</factura>
